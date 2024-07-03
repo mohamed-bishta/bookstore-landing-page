@@ -440,6 +440,7 @@
    gap: 8px;
  }
 
+ /* ///////////////////////////// */
  .Services {
    padding: 100px 0;
  }
@@ -501,6 +502,8 @@
    font-size: 18px;
    line-height: 30.6px;
  }
+
+ /* //////////////// */
 
  .Portfolio {
    background-color: #1B3764;
@@ -653,162 +656,11 @@
    left: 18px;
  }
 
- /* start  the-chapter */
-
- .The-Chapter {
-   background-color: #F4F8FF;
-   padding: 18px 18px;
- }
-
-
- .The-Chapter .container {
-   display: flex;
-   gap: 18px;
- }
-
- .The-Chapter .text-prog {
-   text-align: center;
- }
-
- .The-Chapter .text-prog h3 {
-   display: flex;
-   justify-content: center;
-   font-family: "Cardo";
-   font-weight: 700;
-   font-size: 45px;
-   line-height: 54px;
-   margin: 30px 0;
- }
-
-
- .The-Chapter .text-prog span {
-   display: block;
-   left: 43%;
-   height: 5px;
-   width: 15%;
-   background-color: #FFCA42;
-   margin: 15px 0;
- }
-
- .container .chapter-left {
-   padding: 12px;
- }
-
- .The-Chapter .chapter-left .one {
-   background-color: white;
-   margin: 18px 0;
- }
-
- .The-Chapter .chapter-left .one h3 {
-   font-family: "Cardo";
-   font-weight: 700;
-   font-size: 24px;
-   line-height: 28.8px;
-   color: #1B3764;
- }
-
- .The-Chapter .chapter-left .one p {
-   font-size: 19px;
-   color: #1B3764;
-   line-height: 34.2px;
-   font-weight: 400;
-   margin: 18px 0;
- }
-
- .The-Chapter .chapter-left .content {
-   display: flex;
-   align-items: center;
- }
-
- .The-Chapter .chapter-left .content .one {
-   width: 10px;
-   height: 10px;
-   border-radius: 50%;
-   background-color: #FFCA42;
-   margin: 10px;
- }
-
- .The-Chapter .chapter-left .content .tow {
-   width: 10px;
-   height: 10px;
-   border-radius: 50%;
-   background-color: #FFCA42;
-   margin: 10px;
- }
-
- .The-Chapter .chapter-right .one {
-   background-color: white;
- }
-
- .The-Chapter .chapter-right .one h3 {
-   font-family: "Cardo";
-   font-weight: 700;
-   font-size: 24px;
-   line-height: 28.8px;
-   color: #1B3764;
-   margin: 18px 0;
- }
-
- .The-Chapter .chapter-right .one p {
-   font-size: 19px;
-   color: #1B3764;
-   line-height: 34.2px;
-   font-weight: 400;
-   margin: 18px 0;
- }
-
- .The-Chapter .chapter-right .content {
-   display: flex;
-   align-items: center;
- }
-
- .The-Chapter .chapter-right .content .one {
-   width: 10px;
-   height: 10px;
-   border-radius: 50%;
-   background-color: #FFCA42;
-   margin: 10px;
- }
-
- .The-Chapter .chapter-right .content .tow {
-   width: 10px;
-   height: 10px;
-   border-radius: 50%;
-   background-color: #FFCA42;
-   margin: 10px;
- }
-
- .The-Chapter .Start {
-   text-align: center;
-   margin: 12px 0;
-   display: flex;
-   flex-direction: column;
- }
-
- .The-Chapter .Start .btn {
-   background-color: #FFCA42;
-   font-weight: 700;
-   font-size: 19px;
-   line-height: 23.75px;
-   color: #1B3764;
-   padding: 12px 36px;
-   cursor: pointer;
-   margin: 12px 0;
- }
-
- .The-Chapter .Start span {
-   font-weight: 400;
-   font-size: 19px;
-   line-height: 30.6px;
-   color: #969AA0;
-   margin: 12px 0;
- }
-
-
+ /* start home-box */
 
  .box-sizeng .container {
    display: flex;
-   margin: 100px 40px;
+   padding: 100px 40px;
    gap: 18px;
  }
 
@@ -920,7 +772,7 @@
    background-color: #1B3764;
    padding: 12px;
    border-radius: 8px;
-   margin: 18px 18px;
+   top: 10px;
  }
 
  .box-sizeng .box-right .box-ex {
@@ -1033,7 +885,7 @@
    margin: 15px 0 20px 0;
  }
 
- /* end box-sizeng */
+ /* end home-box */
 
  /* start select */
 
@@ -1312,8 +1164,131 @@
 
  /* end info */
 
+ /* Start Portfolio */
+
+ .portfoli {
+   padding: 100px 20px;
+   background-color: #F4F8FF;
+ }
+
+ .portfoli .special-heading {
+   text-align: center;
+   font-size: 30px;
+   font-family: "Cardo";
+   font-weight: bold;
+   color: #333;
+ }
+
+ .portfoli .container p {
+   text-align: center;
+   font-size: 20px;
+   font-family: "Cardo";
+   font-weight: bold;
+   color: #333;
+ }
+
+ .portfoli .portfolioo-content {
+   display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+   grid-gap: 30px;
+   margin-top: 80px;
+ }
+
+ .portfoli .portfolioo-content .card {
+   background-color: white;
+ }
+
+ .portfoli .portfolioo-content .card img {
+   max-width: 100%;
+ }
+
+ .portfoli .portfolioo-content .card .infoo {
+   padding: 20px;
+ }
+
+ .portfoli .portfolioo-content .card .infoo h3 {
+   margin: 0;
+ }
+
+ .portfoli .portfolioo-content .card .infoo p {
+   color: #777;
+   line-height: 1.6;
+   margin-bottom: 0;
+ }
+
+ /* End portfolioo */
+
+ /* Start Contact */
+ .contactt {
+   padding: 100px 20px;
+   background-color: #f6f6f6;
+ }
+
+ .contactt .special-heading {
+   text-align: center;
+   font-size: 30px;
+   font-family: "Cardo";
+   font-weight: bold;
+   color: #333;
+ }
+
+ .contactt .container p {
+   text-align: center;
+   font-size: 20px;
+   font-family: "Cardo";
+   font-weight: bold;
+   color: #333;
+ }
+
+ .contactt .inf {
+   padding: 100px 20px;
+   text-align: center;
+ }
+
+ .contactt .inf .label {
+   font-size: 35px;
+   font-weight: 800;
+   color: #2c4755;
+   letter-spacing: -2px;
+   margin-bottom: 15px;
+ }
+
+ .contactt .inf .link {
+   display: block;
+   font-size: 35px;
+   font-weight: 800;
+   color: #10cab7;
+   text-decoration: none;
+ }
+
+ .contactt .inf .social {
+   display: flex;
+   justify-content: center;
+   margin-top: 20px;
+   font-size: 16px;
+ }
+
+ .contactt .inf .social i {
+   margin-left: 10px;
+   color: #10cab7;
+ }
+
+ @media (max-width: 767px) {
+
+   .contactt .inf .label,
+   .contactt .inf .link {
+     font-size: 25px;
+   }
+ }
+
+ /* End Contact */
+
+
+
+
 
  @media screen and (max-width: 800px) {
+
    .content .left a i {
      display: none;
    }
@@ -1447,10 +1422,6 @@
      max-width: 320px;
    }
 
-   .The-Chapter .container {
-     flex-direction: column;
-   }
-
    .main-input input,
    .main-input button {
      width: 100%;
@@ -1459,15 +1430,25 @@
      flex-direction: column;
    }
 
-
  }
 
- @media (max-width: 1200px) {
+ @media(max-width: 900px) {
    .box-sizeng .container {
-     flex-wrap: wrap;
-     max-width: fit-content;
      flex-direction: column;
    }
+
+   .container-home .box-element {
+     flex-direction: column;
+     flex-wrap: wrap;
+   }
+
+   .container-home .box-element .home-element {
+     max-width: fit-content;
+   }
+ }
+
+
+ @media (max-width: 1200px) {
 
    .select .container {
      flex-direction: column;
@@ -1482,6 +1463,7 @@
  }
 
  @media (max-width: 500px) {
+
    .btns {
      flex-direction: column;
    }
@@ -1528,49 +1510,5 @@
      word-break: break-word;
 
    }
-
-   .The-Chapter .chapter-left .content {
-     gap: 12px;
-     display: flex;
-   }
-
-   .The-Chapter .chapter-left .content .one {
-     display: none;
-   }
-
-   .The-Chapter .chapter-left .content .tow {
-     display: none;
-
-   }
-
-   .The-Chapter .chapter-right .content {
-     gap: 12px;
-     display: flex;
-   }
-
-
-   .The-Chapter .chapter-right .content .one {
-     display: none;
-   }
-
-   .The-Chapter .chapter-right .content .tow {
-     display: none;
-
-   }
-
-   .box-sizeng .container {
-     flex-wrap: wrap;
-     max-width: fit-content;
-     flex-direction: column;
-   }
-
-   .box-sizeng .box-left {
-     flex-direction: column;
-   }
-
-   .box-sizeng .box-left p {
-     flex-direction: column;
-   }
-
 
  }
